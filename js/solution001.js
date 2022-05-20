@@ -10,9 +10,12 @@ function between(a, b) {
     //P integers a & b, a < b
     //R return an array of integers a to b
     //E if a = 1, b = 5, should return [1,2,3,4,5]
-    //P loop that runs from a to b and return the array.
+    //P
+    //create an empty array
     let arr = []
+    //create a loop that runs from a to b
     for(let i = a; i <= b; i++){
+      //push a to b to
       arr.push(i)
     }
     return arr 
