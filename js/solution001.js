@@ -18,4 +18,4 @@ function between(a, b) {
     return arr 
   }
 
- document.querySelector('h3').innerText = between(1,4)
+ console.log(between(1,5))
