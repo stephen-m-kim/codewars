@@ -1,5 +1,5 @@
 // Write a function that returns a string in which firstname is swapped with last name.
-
+// don't use reverse method
 // nameShuffler('john McClane'); => "McClane john"
 
 function nameShuffler(str){
