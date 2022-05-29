@@ -29,7 +29,7 @@ function magNumber(info){
     }else if(info[0] === 'M16A2'){
       info[0] = Number(30)
     }else if(info[0] === 'PSG1'){
-      info[0] = Number(5)
+      info[0] = Number(5)   
     }
     //find number of magazines needed and round up to the next integer
     let magsNeeded = info[1]*3/info[0] 
