@@ -20,7 +20,7 @@ function vowelIndices(word){
     // create an empty arr
     let arr = []
     // split word into arr
-    // loop through arr and match vowels str.indexoOf()
+    // loop through arr and match with vowels using str.indexoOf()
     // push index + 1 to empty arr
     word.split('').forEach((letter,i) => {
       if(vowels.indexOf(letter) !== -1){
