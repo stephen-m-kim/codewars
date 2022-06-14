@@ -12,7 +12,7 @@ function powersOfTwo(n){
     //n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
     //create an empty arr
     let answer = []
-    //loop from 0 to n
+    //loop from 0 to n.
     for(let i = 0; i <= n; i++){
     //power 2 by i and push to arr 
       answer.push(Math.pow(2, i))
